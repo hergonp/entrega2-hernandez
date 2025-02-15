@@ -8,7 +8,7 @@ const clasificacion = ["🟦 Estás bajo de peso.", "🟩 Tienes un peso normal.
 while (continuar) {
     let peso = parseFloat(prompt("Introduce tu peso en kilogramos: "));
     
-    let altura = parseFloat(prompt("Introduce tu altura en metros: "));
+    let altura = parseFloat(prompt("Introduce tu altura en metros: (Ejemplo: 1.56)"));
 
     if (isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
         alert("Por favor, introduce valores válidos para peso y altura.");
