@@ -7,7 +7,22 @@
     <title>Calculadora IMC | Entrega 1</title>
 </head>
 <body>
-    <h1>Calculadora IMC - Pia Hernandez</h1>
-    <p>Prototipo inicial del funcionamiento de una calculadora de IMC</p>
+    <div id="calculadora">
+        <h1 id="title"> Calculadora de IMC</h1>
+        <form action="" id="calculo-imc">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" placeholder="Nombre"><br>
+        <label for="estatura">Estatura (metros)</label><br>
+        <input type="text" id="altura" placeholder="Por ejemplo: 1.56"><br>
+        <label for="estatura">Peso</label><br>
+        <input type="text" id="peso"><br>
+        <label for="">Sexo</label><br>
+        <input type="radio" id="sexo-f" value="femenino">
+        <label for="">Femenino</label>
+        <input type="radio" name="" id="sexo-m" value="masculino">
+        <label for="">Masculino</label>
+        </form>     
+        <button id="calcular-imc">Calcular</button>
+    </div>
 </body>
 </html>
