@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <script defer src="./js/main.js"></script>
-    <title>Calculadora IMC | Entrega 1</title>
+    <title>Calculadora IMC</title>
 </head>
 <body>
-    <div id="calculadora">
+    <main id="calculadora-main">
         <h1 id="title"> Calculadora de IMC</h1>
-        <form action="" id="calculo-imc">
-        <label for="nombre">Nombre</label><br>
-        <input type="text" id="nombre" placeholder="Nombre"><br>
-        <label for="estatura">Estatura (metros)</label><br>
-        <input type="text" id="altura" placeholder="Por ejemplo: 1.56"><br>
-        <label for="estatura">Peso</label><br>
-        <input type="text" id="peso"><br>
-        <label for="">Sexo</label><br>
-        <input type="radio" id="sexo-f" value="femenino">
-        <label for="">Femenino</label>
-        <input type="radio" name="" id="sexo-m" value="masculino">
-        <label for="">Masculino</label>
-        </form>     
-        <button id="calcular-imc">Calcular</button>
-    </div>
+        <div class="calculo-imc">
+            <!--Ingreso de datos-->
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" placeholder="Nombre"><br>
+            <label for="estatura">Estatura (mts)</label><br>
+            <input type="text" id="altura" placeholder="Ej: 1.56"><br>
+            <label for="estatura">Peso (kg)</label><br>
+            <input type="text" id="peso"><br>
+            <label for="">Sexo</label><br>
+            <input type="radio" name="sexo" id="sexo-f" value="femenino">
+            <label for="">Femenino</label>
+            <input type="radio" name="sexo" id="sexo-m" value="masculino">
+            <label for="">Masculino</label><br>
+            <!--Botones-->
+            <button class="btn" id="historial-btn">Historial</button>
+            <button class="btn" id="reset-btn">Borrar</button>     
+            <button class="btn" id="calcular-btn">Calcular</button>
+        </div>
+        
+        
+    </main>    
 </body>
 </html>
