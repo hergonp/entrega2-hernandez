@@ -9,11 +9,11 @@
 </head>
 <body>
     <main id="calculadora-main">
-        <h1 id="title"> Calculadora de IMC</h1>
         <div class="calculo-imc">
+            <h1 id="title"> Calculadora de IMC</h1>
             <!--Ingreso de datos-->
             <label for="nombre">Nombre</label><br>
-            <input type="text" id="nombre" placeholder="Nombre"><br>
+            <input type="text" id="nombre"><br>
             <label for="estatura">Estatura (mts)</label><br>
             <input type="text" id="altura" placeholder="Ej: 1.56"><br>
             <label for="estatura">Peso (kg)</label><br>
@@ -24,11 +24,14 @@
             <input type="radio" name="sexo" id="sexo-m" value="masculino">
             <label for="">Masculino</label><br>
             <!--Botones-->
+            <div id="btn">
             <button class="btn" id="historial-btn">Historial</button>
             <button class="btn" id="reset-btn">Borrar</button>     
-            <button class="btn" id="calcular-btn">Calcular</button>
+            <button class="btn" id="calcular-btn">Calcular</button> 
+            </div>
+            
         </div>
-        
+        <div id="resultado-imc"></div>
         
     </main>    
 </body>

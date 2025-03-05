@@ -17,12 +17,48 @@ body{
 
 .calculo-imc{
     background-color: white;
-    padding: 10%;
+    width: 150%;
+    display: block;
+    padding: 1rem;
     border-radius: 5%;
+    position: relative;
+    text-align: center;
 }
+
+#nombre, #peso, #altura{
+    max-width: 190px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s, background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+label{
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+#nombre:hover, #peso:hover, #altura:hover, #nombre:focus, #peso:focus, #altura:focus{
+    outline: none;
+    border-color: #05060f;
+}
+
+#nombre:hover, #peso:hover, #altura:hover, label{
+    color: #05060fc2;
+}
+
+/*Botones*/
+
 
 .btn {
     padding: 12px 20px;
+    margin-top: 5%;
     border-radius: 8px;
     background-color: transparent;
     border: 0;
@@ -34,4 +70,12 @@ body{
 #calcular-btn {
     background-color: #055775;
     color: #fff;
+}
+
+#historial-btn:hover , #reset-btn:hover{
+    background-color: #dfdad7;
+}
+
+#calcular-btn:hover{
+    background-color: #054156;
 }
