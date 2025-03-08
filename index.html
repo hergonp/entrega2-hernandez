@@ -19,19 +19,24 @@
             <label for="estatura">Peso (kg)</label><br>
             <input type="text" id="peso"><br>
             <label for="">Sexo</label><br>
-            <input type="radio" name="sexo" id="sexo-f" value="femenino">
+            <input type="radio" name="sexo" id="sexo" value="femenino">
             <label for="">Femenino</label>
-            <input type="radio" name="sexo" id="sexo-m" value="masculino">
+            <input type="radio" name="sexo" id="sexo" value="masculino">
             <label for="">Masculino</label><br>
             <!--Botones-->
             <div id="btn">
             <button class="btn" id="historial-btn">Historial</button>
-            <button class="btn" id="reset-btn">Borrar</button>     
+            <button class="btn" id="limpiar-btn">Limpiar</button>     
             <button class="btn" id="calcular-btn">Calcular</button> 
             </div>
             
         </div>
         <div id="resultado-imc"></div>
+        <div id="historial-contenedor">            
+            <div id="historial"></div>
+            <button class="btn" id="eliminar-btn">Eliminar</button>
+        </div>
+        
         
     </main>    
 </body>

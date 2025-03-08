@@ -23,6 +23,31 @@ body{
     border-radius: 5%;
     position: relative;
     text-align: center;
+    box-shadow:  3px 3px 3px #4e4e51;
+}
+
+#resultado-imc{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px #4e4e51;
+    padding: 5%;
+    position: absolute;
+}
+
+#historial-contenedor{
+    background-color: white;
+    display: none;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 7%;
+    box-shadow: 3px 3px 3px #4e4e51;
+    padding: 7%;
+    position: absolute;
 }
 
 #nombre, #peso, #altura{
@@ -72,10 +97,15 @@ label{
     color: #fff;
 }
 
-#historial-btn:hover , #reset-btn:hover{
+#eliminar-btn{
+    background-color: #055775;
+    color: #fff;
+}
+
+#historial-btn:hover , #limpiar-btn:hover {
     background-color: #dfdad7;
 }
 
-#calcular-btn:hover{
+#calcular-btn:hover, #eliminar-btn:hover{
     background-color: #054156;
 }
