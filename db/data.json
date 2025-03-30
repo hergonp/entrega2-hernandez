@@ -1,0 +1,327 @@
+{
+    "clasificaciones": [
+        {
+            "tipo": "Bajo peso",
+            "rango": "IMC < 18.5",
+            "descripcion": "Un IMC por debajo de 18.5 indica que la persona tiene un peso inferior al recomendado para su altura. Esto puede estar asociado con desnutrición, trastornos alimentarios u otros problemas de salud.",
+            "ejercicios": [
+                {
+                    "nombre": "Entrenamiento de fuerza",
+                    "frecuencia": "3 veces por semana",
+                    "descripcion": "Enfocarse en ejercicios compuestos como sentadillas, press de banca y peso muerto para estimular el crecimiento muscular.",
+                    "ejemplos": [
+                        "Press de banca",
+                        "Sentadillas",
+                        "Peso muerto",
+                        "Dominadas",
+                        "Fondos"
+                    ]
+                },
+                {
+                    "nombre": "Ejercicios de resistencia moderados",
+                    "frecuencia": "2-3 veces por semana",
+                    "descripcion": "Actividades de intensidad moderada que no quemen demasiadas calorías.",
+                    "ejemplos": [
+                        "Caminata rápida",
+                        "Natación suave",
+                        "Ciclismo recreativo"
+                    ]
+                },
+                {
+                    "nombre": "Yoga o pilates",
+                    "frecuencia": "1-2 veces por semana",
+                    "descripcion": "Para mejorar la flexibilidad y fortalecer el core sin quemar muchas calorías.",
+                    "ejemplos": [
+                        "Yoga Hatha",
+                        "Pilates básico",
+                        "Estiramientos"
+                    ]
+                }
+            ],
+            "dieta": {
+                "descripcion": "Dieta alta en calorías y proteínas para promover el aumento de peso saludable.",
+                "calorias": "Incremento de 300-500 calorías diarias sobre el mantenimiento",
+                "macronutrientes": {
+                    "proteinas": "25-30% (1.6-2g por kg de peso corporal)",
+                    "carbohidratos": "45-55%",
+                    "grasas": "25-35%"
+                },
+                "alimentos_recomendados": [
+                    "Frutos secos y mantequillas de frutos secos",
+                    "Aguacate",
+                    "Aceite de oliva extra virgen",
+                    "Lácteos enteros",
+                    "Carnes magras",
+                    "Pescados grasos (salmón, atún)",
+                    "Cereales integrales",
+                    "Batidos de proteínas"
+                ],
+                "comidas_ejemplo": [
+                    "Desayuno: Avena con leche entera, plátano, mantequilla de maní y miel",
+                    "Almuerzo: Salmón con arroz integral y aguacate",
+                    "Cena: Pollo a la parrilla con patatas asadas y verduras salteadas en aceite de oliva",
+                    "Snacks: Batido de proteínas con plátano y mantequilla de maní, yogur griego con granola y miel"
+                ]
+            }
+        },
+        {
+            "tipo": "Normal",
+            "rango": "IMC 18.5-24.9",
+            "descripcion": "Un IMC entre 18.5 y 24.9 indica un peso saludable para la altura. Mantener un peso dentro de este rango reduce el riesgo de desarrollar problemas de salud relacionados con el peso.",
+            "ejercicios": [
+                {
+                    "nombre": "Cardio",
+                    "frecuencia": "3-4 veces por semana",
+                    "descripcion": "Actividades aeróbicas para mantener la salud cardiovascular.",
+                    "ejemplos": [
+                        "Correr",
+                        "Natación",
+                        "Ciclismo",
+                        "Clases de HIIT",
+                        "Remo"
+                    ]
+                },
+                {
+                    "nombre": "Entrenamiento de fuerza",
+                    "frecuencia": "2-3 veces por semana",
+                    "descripcion": "Para mantener la masa muscular y fortalecer el cuerpo.",
+                    "ejemplos": [
+                        "Entrenamiento con pesas",
+                        "Ejercicios con peso corporal",
+                        "Bandas de resistencia"
+                    ]
+                },
+                {
+                    "nombre": "Actividades recreativas",
+                    "frecuencia": "1-2 veces por semana",
+                    "descripcion": "Deportes o actividades que disfrutes para mantener la motivación.",
+                    "ejemplos": [
+                        "Tenis",
+                        "Baloncesto",
+                        "Senderismo",
+                        "Baile",
+                        "Yoga"
+                    ]
+                }
+            ],
+            "dieta": {
+                "descripcion": "Dieta equilibrada para mantener el peso y la salud general.",
+                "calorias": "Mantenimiento (según nivel de actividad)",
+                "macronutrientes": {
+                    "proteinas": "15-20% (0.8-1.2g por kg de peso corporal)",
+                    "carbohidratos": "45-65%",
+                    "grasas": "20-35%"
+                },
+                "alimentos_recomendados": [
+                    "Frutas y verduras variadas (5 porciones diarias)",
+                    "Granos integrales (arroz integral, quinoa, avena)",
+                    "Proteínas magras (pollo, pescado, legumbres)",
+                    "Lácteos bajos en grasa o alternativas vegetales",
+                    "Grasas saludables (aceite de oliva, aguacate, frutos secos)"
+                ],
+                "comidas_ejemplo": [
+                    "Desayuno: Tostada integral con huevo y aguacate",
+                    "Almuerzo: Ensalada con pollo a la parrilla, quinoa y verduras",
+                    "Cena: Pescado al horno con batata y brócoli",
+                    "Snacks: Yogur con frutas, puñado de frutos secos, hummus con vegetales"
+                ]
+            }
+        },
+        {
+            "tipo": "Sobrepeso",
+            "rango": "IMC 25-29.9",
+            "descripcion": "Un IMC entre 25 y 29.9 indica sobrepeso. Esto puede aumentar el riesgo de desarrollar enfermedades como diabetes tipo 2, hipertensión y enfermedades cardíacas.",
+            "ejercicios": [
+                {
+                    "nombre": "Cardio de intensidad moderada",
+                    "frecuencia": "4-5 veces por semana (30-45 min)",
+                    "descripcion": "Actividades aeróbicas que eleven la frecuencia cardíaca sin ser demasiado intensas.",
+                    "ejemplos": [
+                        "Caminata rápida",
+                        "Ciclismo",
+                        "Natación",
+                        "Elíptica",
+                        "Clases de aeróbic de bajo impacto"
+                    ]
+                },
+                {
+                    "nombre": "Entrenamiento de fuerza",
+                    "frecuencia": "2-3 veces por semana",
+                    "descripcion": "Para aumentar la masa muscular y acelerar el metabolismo.",
+                    "ejemplos": [
+                        "Circuitos con pesas ligeras",
+                        "Ejercicios con peso corporal",
+                        "Máquinas de gimnasio"
+                    ]
+                },
+                {
+                    "nombre": "Actividad diaria",
+                    "frecuencia": "Diariamente",
+                    "descripcion": "Aumentar el movimiento en la vida cotidiana.",
+                    "ejemplos": [
+                        "Usar escaleras en lugar de ascensor",
+                        "Caminar durante las llamadas telefónicas",
+                        "Estacionarse más lejos",
+                        "Pausas activas cada hora"
+                    ]
+                }
+            ],
+            "dieta": {
+                "descripcion": "Dieta con déficit calórico moderado para perder peso gradualmente.",
+                "calorias": "Reducción de 300-500 calorías diarias del mantenimiento",
+                "macronutrientes": {
+                    "proteinas": "25-30% (1.2-1.6g por kg de peso corporal)",
+                    "carbohidratos": "40-50% (enfocados en carbohidratos complejos)",
+                    "grasas": "20-30% (priorizando grasas saludables)"
+                },
+                "alimentos_recomendados": [
+                    "Proteínas magras (pollo sin piel, pescado, tofu, legumbres)",
+                    "Verduras no almidonadas en abundancia",
+                    "Frutas enteras (limitar los jugos)",
+                    "Granos integrales en porciones controladas",
+                    "Grasas saludables en cantidades moderadas"
+                ],
+                "alimentos_limitar": [
+                    "Azúcares refinados y dulces",
+                    "Harinas refinadas y productos de panadería",
+                    "Alimentos procesados y ultraprocesados",
+                    "Bebidas azucaradas",
+                    "Alcohol"
+                ],
+                "comidas_ejemplo": [
+                    "Desayuno: Yogur griego con frutas y una cucharada de semillas de chía",
+                    "Almuerzo: Ensalada grande con atún, huevo duro y aliño ligero",
+                    "Cena: Pechuga de pollo a la plancha con verduras al vapor y una pequeña porción de quinoa",
+                    "Snacks: Manzana con una cucharada de mantequilla de almendras, palitos de zanahoria con hummus"
+                ]
+            }
+        },
+        {
+            "tipo": "Obesidad",
+            "rango": "IMC ≥ 30",
+            "descripcion": "Un IMC de 30 o superior indica obesidad. La obesidad aumenta significativamente el riesgo de múltiples problemas de salud, incluyendo enfermedades cardíacas, diabetes, apnea del sueño y ciertos tipos de cáncer.",
+            "ejercicios": [
+                {
+                    "nombre": "Actividad de bajo impacto",
+                    "frecuencia": "Diariamente (comenzar con 10-15 min e ir aumentando)",
+                    "descripcion": "Ejercicios suaves que no ejerzan presión sobre las articulaciones.",
+                    "ejemplos": [
+                        "Caminatas cortas",
+                        "Natación",
+                        "Ejercicios acuáticos",
+                        "Bicicleta estática",
+                        "Elíptica"
+                    ]
+                },
+                {
+                    "nombre": "Entrenamiento de fuerza supervisado",
+                    "frecuencia": "2 veces por semana (inicialmente)",
+                    "descripcion": "Ejercicios adaptados bajo supervisión profesional.",
+                    "ejemplos": [
+                        "Máquinas de gimnasio",
+                        "Bandas de resistencia",
+                        "Ejercicios sentados o con apoyo"
+                    ]
+                },
+                {
+                    "nombre": "Flexibilidad y movilidad",
+                    "frecuencia": "3-4 veces por semana",
+                    "descripcion": "Para mejorar el rango de movimiento y reducir molestias.",
+                    "ejemplos": [
+                        "Estiramientos suaves",
+                        "Yoga adaptado",
+                        "Tai Chi",
+                        "Ejercicios de movilidad articular"
+                    ]
+                }
+            ],
+            "dieta": {
+                "descripcion": "Plan alimenticio supervisado por profesionales para una pérdida de peso gradual y sostenible.",
+                "recomendaciones": [
+                    "Consultar con un médico antes de iniciar cualquier plan de pérdida de peso",
+                    "Trabajar con un nutricionista para un plan personalizado",
+                    "Enfocarse en cambios de hábitos a largo plazo, no en dietas restrictivas",
+                    "Monitorear las porciones y llevar un registro de alimentos",
+                    "Mantenerse bien hidratado (principalmente con agua)",
+                    "Comer despacio y prestar atención a las señales de hambre y saciedad"
+                ],
+                "alimentos_recomendados": [
+                    "Verduras no almidonadas en abundancia",
+                    "Proteínas magras en cada comida",
+                    "Frutas enteras (en porciones controladas)",
+                    "Granos integrales en pequeñas cantidades",
+                    "Grasas saludables en cantidades limitadas"
+                ],
+                "alimentos_evitar": [
+                    "Alimentos ultraprocesados",
+                    "Comida rápida y frituras",
+                    "Bebidas azucaradas y alcohol",
+                    "Dulces y postres ricos en azúcar y grasa",
+                    "Snacks salados procesados"
+                ],
+                "comidas_ejemplo": [
+                    "Desayuno: Tortilla de claras con espinacas y tomate",
+                    "Almuerzo: Sopa de verduras con pechuga de pollo desmenuzada",
+                    "Cena: Pescado al horno con ensalada verde grande",
+                    "Snacks: Pepino con limón, infusiones sin azúcar, yogur natural"
+                ]
+            }
+        }
+    ],
+    "consejos_generales": [
+        {
+            "categoria": "Hidratación",
+            "consejos": [
+                "Beber al menos 2 litros de agua al día",
+                "Limitar el consumo de bebidas azucaradas y alcohol",
+                "El agua puede ayudar a controlar el apetito",
+                "Aumentar la ingesta de agua durante el ejercicio y en climas cálidos"
+            ]
+        },
+        {
+            "categoria": "Sueño",
+            "consejos": [
+                "Dormir entre 7-9 horas diarias",
+                "Mantener un horario regular de sueño",
+                "La falta de sueño puede afectar negativamente el peso y la salud metabólica",
+                "Crear un ambiente propicio para el descanso (oscuro, fresco, sin dispositivos electrónicos)"
+            ]
+        },
+        {
+            "categoria": "Manejo del estrés",
+            "consejos": [
+                "Practicar técnicas de relajación como meditación o respiración profunda",
+                "El estrés crónico puede contribuir al aumento de peso",
+                "Buscar actividades placenteras que reduzcan el estrés",
+                "Considerar el apoyo profesional si el estrés es persistente"
+            ]
+        },
+        {
+            "categoria": "Consistencia",
+            "consejos": [
+                "Los cambios pequeños y sostenibles son más efectivos que los drásticos",
+                "Establecer metas realistas y medibles",
+                "Celebrar los logros, por pequeños que sean",
+                "No desanimarse por retrocesos ocasionales"
+            ]
+        }
+    ],
+    "recursos_adicionales": [
+        {
+            "nombre": "Calculadoras de calorías",
+            "descripcion": "Herramientas para estimar las necesidades calóricas diarias según edad, sexo, peso, altura y nivel de actividad."
+        },
+        {
+            "nombre": "Aplicaciones de seguimiento",
+            "descripcion": "Apps para registrar alimentos, ejercicio y progreso en el tiempo."
+        },
+        {
+            "nombre": "Comunidades de apoyo",
+            "descripcion": "Grupos donde compartir experiencias y recibir motivación de personas con objetivos similares."
+        },
+        {
+            "nombre": "Consulta profesional",
+            "descripcion": "Información sobre cuándo y cómo buscar ayuda de médicos, nutricionistas y entrenadores personales."
+        }
+    ]
+}
